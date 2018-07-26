@@ -26,6 +26,6 @@ RUN chmod a+x /usr/bin/add_cluster_nodes.sh
 
 VOLUME /var/lib/proxysql
 
-EXPOSE 3306 6032
+EXPOSE 3306 6032 6080
 
 CMD [""]
